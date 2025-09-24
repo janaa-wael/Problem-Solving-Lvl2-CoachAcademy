@@ -3,6 +3,7 @@
         "b- left rotation": "cpp",
         "deque": "cpp",
         "iostream": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "queue": "cpp"
     }
 }
