@@ -2,14 +2,14 @@
 #include <string>
 using namespace std;
 string str;
-long long calcStr(string s, int index)
+long long calcStr(const string& s, int index)
 {
     if(index == 0)
         return s[index] - '0';
     return (s[index] - '0') + calcStr(s, index-1);
 }
 
-long long calc(string s)
+long long calc(const string& s)
 {
     if(s.size() == 1)
         return s[0] - '0';
@@ -24,9 +24,8 @@ int main()
     int k;
     cin >> k;
     string s;
-    for(int i = 0; i < k; i++)
-    {
-        s += str;
-    }
-    cout << calc(s) << endl;
+    long long first = calcStr(str, str.size()-1)*k;
+    
+    string second = to_string(first);
+    cout << calc(second) << endl;
 }
