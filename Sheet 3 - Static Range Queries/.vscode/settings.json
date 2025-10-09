@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp",
+        "xiosbase": "cpp"
     }
 }
