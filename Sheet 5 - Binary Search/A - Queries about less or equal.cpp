@@ -12,7 +12,8 @@ int BinarySearch(vector<int>& v, int b) {
         {
             ans = mid;
             l = mid + 1;
-        } else 
+        } 
+        else 
         {
             r = mid - 1;
         }
